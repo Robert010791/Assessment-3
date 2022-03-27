@@ -1,0 +1,76 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+.skill-list {
+  font-size: 13px;
+}
+
+#red:hover {
+  background-color: red;
+  color: blue;
+}
+
+#blue:hover {
+  background-color: blue;
+  color: red;
+}
+
+#yellow:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#black:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.fav-btn {
+  background-color: yellow;
+  color: blue;
+  transform: scale(1.3);
+  margin: 20px;
+}
+
+.fav-btn:hover {
+  background-color: red;
+  color: blue;
+  transform: scale(1.5) rotate(360deg);
+  box-shadow: 10px 15px 15px green;
+  transition: 0.5s;
+}
